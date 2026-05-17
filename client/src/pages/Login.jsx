@@ -65,7 +65,7 @@ const Login = () => {
                                 required
                                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-gray-700 focus:border-gray-700 transition shadow-sm"
                                 value={email}
-                                placeholder=''
+                                placeholder='admin@eventora.com'
                                 onChange={(e) => setEmail(e.target.value)}
                             />
                         </div>
