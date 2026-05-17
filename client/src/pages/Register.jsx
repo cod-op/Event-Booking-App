@@ -68,6 +68,7 @@ const Register = () => {
                                 required
                                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-gray-700 transition shadow-sm"
                                 value={email}
+                                placeholder=''
                                 onChange={(e) => setEmail(e.target.value)}
                             />
                         </div>
@@ -78,6 +79,7 @@ const Register = () => {
                                 required
                                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-gray-700 transition shadow-sm"
                                 value={password}
+                                placeholder='for admin password = StrongPassword@123'
                                 onChange={(e) => setPassword(e.target.value)}
                             />
                         </div>
